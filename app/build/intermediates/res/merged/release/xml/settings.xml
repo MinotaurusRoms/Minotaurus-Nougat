@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--Extended Power Menu-->
+    <PreferenceScreen android:title="Extended Power Menu" android:summary="Show/Hide Buttons.....">
+        <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
+        <PreferenceCategory android:title="Show/Hide Buttons">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Reboot Recovery Button" android:key="asc_reboot_recovery" android:defaultValue="true" android:summaryOn="Reboot Recovery will be shown" android:summaryOff="Currently removed" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Power off" android:key="asc_power_menu_power" android:defaultValue="true" android:summaryOn="Power off mode will be shown" android:summaryOff="Currently removed" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Emergency Mode Button" android:key="asc_power_emergency" android:defaultValue="true" android:summaryOn="Emergency mode will be shown" android:summaryOff="Currently removed" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+
+
+<!--Advanced Settings Menu-->
+    <PreferenceScreen android:title="Advanced Settings Menu" android:summary="USB, Viper, Dolby .....">
+        <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
+        <PreferenceCategory android:title="USB"  />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="asc_usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+        <PreferenceCategory android:title="Apps"  />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="" app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="" app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
+
+    </PreferenceScreen>
+
+
+</PreferenceScreen>
