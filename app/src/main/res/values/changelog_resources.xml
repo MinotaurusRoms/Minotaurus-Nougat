@@ -9,15 +9,13 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>OTA1.1:</item>
-        <item>Added Root Explorer</item>
-        <item>Added BetterBatteryStats</item>
+        <item>See Rom Thread</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">MINOTAURUS NOUGAT ZPLH V1</string>
+    <string name="rom_version_for_changelog">MINOTAURUS NOUGAT</string>
 
 
 </resources>

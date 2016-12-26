@@ -2,46 +2,8 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<!--Statusbar-->
-    <PreferenceScreen android:icon="@drawable/ic_reboot" android:title="Statusbar" android:summary="Clock, Traffic meter, Battery type...">
-        <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
-        <PreferenceCategory android:title="Statusbar icon color"/>
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Separate or Global colors" android:key="asc_is_global_sb_color" android:defaultValue="true" android:summaryOn="Seperate colors" android:summaryOff="Global colors" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-        <PreferenceCategory android:title="Global color"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Global color" android:key="asc_global_sb_color" android:defaultValue="#ffffff" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-        <PreferenceCategory android:title="Separate color"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Clock Color" android:defaultValue="#ffffff" android:key="asc_clock_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Status Icons Color" android:defaultValue="#ffffff" android:key="asc_status_icons_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Wifi Signal Color" android:defaultValue="#ffffff" android:key="asc_wifi_signal_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Mobile Signal Color" android:defaultValue="#ffffff" android:key="asc_mobile_signal_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Mobile Type and Arrows Color" android:defaultValue="#ffffff" android:key="asc_mobile_type_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Roaming Icon Color" android:defaultValue="#ffffff" android:key="asc_mobile_roaming_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Airplanemode Color" android:defaultValue="#ffffff" android:key="asc_airplane_mode_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notification Icons Color" android:defaultValue="#ffffff" android:key="asc_notification_icons_color" android:dependency="asc_is_global_sb_color" app:rebootDevice="true" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Percent Color" android:defaultValue="#ffffff" android:key="asc_battery_percent_color" android:dependency="asc_is_global_sb_color" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
-    </PreferenceScreen>
-
-
-<!--Expanded Statusbar-->
-    <PreferenceScreen android:icon="@drawable/ic_reboot" android:title="Expanded Statusbar" android:summary="Backgound Colors.....">
-        <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
-        <PreferenceCategory  android:title="Background colors">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Expanded view background color" android:key="asc_expanded_switch_bg" android:summaryOn="enabled" android:summaryOff="disabled" android:defaultValue="false" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Header" android:key="asc_header" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Search bar" android:key="asc_qs_sfinder_bar_bg" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Quick toggles" android:key="asc_quick_qs_panel" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Quick settings and brightness" android:key="asc_quick_settings_container" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Data Usage" android:key="asc_data_usage_view" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="QS Detail" android:key="asc_qsdetail" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="QS Customize" android:key="asc_qs_customize" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notification Bottom" android:key="asc_notification_bottom_normal_mode" android:dependency="asc_expanded_switch_bg" android:defaultValue="\#ffffffff" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
-        </PreferenceCategory>
-    </PreferenceScreen>
-
-
-
 <!--Extended Power Menu-->
-    <PreferenceScreen android:icon="@drawable/ic_reboot" android:title="Extended Power Menu" android:summary="Show/Hide Buttons.....">
+    <PreferenceScreen android:title="Extended Power Menu" android:summary="Show/Hide Buttons.....">
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
         <PreferenceCategory android:title="Show/Hide Buttons">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Reboot Recovery Button" android:key="asc_reboot_recovery" android:defaultValue="true" android:summaryOn="Reboot Recovery will be shown" android:summaryOff="Currently removed" />
@@ -53,10 +15,14 @@
 
 
 <!--Advanced Settings Menu-->
-    <PreferenceScreen android:icon="@drawable/ic_reboot" android:title="Advanced Settings Menu" android:summary="USB .....">
+    <PreferenceScreen android:title="Advanced Settings Menu" android:summary="USB, Viper, Dolby .....">
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
         <PreferenceCategory android:title="USB"  />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="asc_usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="asc_usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+        <PreferenceCategory android:title="Apps"  />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="" app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="" app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
+
     </PreferenceScreen>
 
 

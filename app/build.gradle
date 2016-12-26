@@ -37,7 +37,7 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
-        project.archivesBaseName = "RomControl V1.1"
+        project.archivesBaseName = "RomControl"
     }
 
     buildTypes {
