@@ -15,10 +15,14 @@
 
 
 <!--Advanced Settings Menu-->
-    <PreferenceScreen android:title="Advanced Settings Menu" android:summary="USB .....">
+    <PreferenceScreen android:title="Advanced Settings Menu" android:summary="USB, Viper, Dolby .....">
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
         <PreferenceCategory android:title="USB"  />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="asc_usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="asc_usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+        <PreferenceCategory android:title="Apps"  />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="" app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="" app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
+
     </PreferenceScreen>
 
 

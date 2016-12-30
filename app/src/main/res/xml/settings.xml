@@ -7,7 +7,7 @@
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
         <PreferenceCategory android:title="Show/Hide Buttons">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Reboot Recovery Button" android:key="asc_reboot_recovery" android:defaultValue="true" android:summaryOn="Reboot Recovery will be shown" android:summaryOff="Currently removed" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Power off" android:key="asc_power_menu_power" android:defaultValue="true" android:summaryOn="Power off mode will be shown" android:summaryOff="Currently removed" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Power off" android:key="asc_poweroff_power_menu" android:defaultValue="true" android:summaryOn="Power off mode will be shown" android:summaryOff="Currently removed" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Emergency Mode Button" android:key="asc_power_emergency" android:defaultValue="true" android:summaryOn="Emergency mode will be shown" android:summaryOff="Currently removed" />
         </PreferenceCategory>
     </PreferenceScreen>
