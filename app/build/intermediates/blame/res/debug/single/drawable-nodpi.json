@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\ic_launcher.png",
+        "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\skricciolo.png",
+        "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\skricciolo.png"
+    },
+    {
         "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\potatoclock.png",
         "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\potatoclock.png"
     },

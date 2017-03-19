@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_2</item>
+        <item>@drawable/google</item>
+        <item>@drawable/ic_launcher</item>
     </array>
     <string-array name="about_contact_us_links" translatable="false">
-        <item>http://goo.gl/VwODt3</item>
-        <item>https://goo.gl/Kh3e8c</item>
+        <item>https://plus.google.com/u/0/communities/115292808040194711632</item>
+        <item>https://sites.google.com/site/minotaurusrom/rom-features</item>
     </string-array>
-    <string-array name="about_contact_us_text">
-        <item>XDA PM</item>
-        <item>XDA THREAD</item>
+    <string-array name="about_contact_us_text" translatable="false">
+        <item>Google+</item>
+        <item>Homepage</item>
     </string-array>
     <array name="about_credits_drawables">
         <item>@drawable/icon_1</item>
         <item>@drawable/icon_3</item>
+        <item>@drawable/agabey</item>
+        <item>@drawable/skricciolo</item>
     </array>
     <string-array name="about_credits_links" translatable="false">
         <item>http://goo.gl/9Mexoz</item>
         <item>http://goo.gl/9tHG70</item>
+        <item>http://</item>
+        <item>https://goo.gl/FyswzJ</item>
     </string-array>
     <string-array name="about_credits_names">
-        <item>Daxgirl - RomControl Developer</item>
-        <item>Wuby986 - RomControl Developer</item>
+        <item>Daxgirl</item>
+        <item>Wuby</item>
+        <item>Agabey</item>
+        <item>Fabio</item>
     </string-array>
     <array name="about_team_drawables">
         <item>@drawable/icon_5</item>
     </array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
+        <item>https://sites.google.com/site/minotaurusrom/rom-features</item>
     </string-array>
     <string-array name="about_team_names">
-        <item>Asc1977 - Rom developer</item>
+        <item>Schwenn</item>
     </string-array>
     <string-array name="backup_restore_items">
         <item>Backup data</item>
@@ -694,7 +700,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_us">About us</string>
-    <string name="app_name">RomControl</string>
+    <string name="app_name">RomControlFree</string>
     <string name="app_reboot_required_dialog_message">For this action to take effect it is required to restart %1$s.\n\nPress OK to restart now</string>
     <string name="app_reboot_required_dialog_title">App reboot required</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>

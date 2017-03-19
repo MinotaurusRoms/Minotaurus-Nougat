@@ -2,8 +2,32 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <PreferenceScreen android:title="RomControlPro">
+        <PreferenceScreen
+            android:title="RomControl Pro app"
+            android:icon="@drawable/ic_launcher"
+            android:summary="For more options download here">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://goo.gl/E2C5f5" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Rom updates only in RomControlPro">
+        </PreferenceScreen>
+    </PreferenceScreen>
+
+<!--Statusbar-->
+    <PreferenceScreen android:title="Statusbar">
+        <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
+        <PreferenceCategory android:title="Battery Settings">
+            <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="3Minit Battery Mod" android:summary="Custom battery chooser" app:componentName="com.three.minit.minitbatterysettings.free/com.three.minit.minitbatterysettings.MainActivity"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="3Minit battery show/hide" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="shown" android:summaryOff="hidden" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Stock battery show/hide" android:key="asc_stock_battery_visibility" android:defaultValue="false" android:summaryOn="shown" android:summaryOff="hidden" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Display Percentage" android:key="display_battery_percentage" android:defaultValue="0" android:summaryOn="Battery text shown" android:summaryOff="Battery text is hidden" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
 <!--Extended Power Menu-->
-    <PreferenceScreen android:title="Extended Power Menu" android:summary="Show/Hide Buttons.....">
+    <PreferenceScreen android:title="Extended Power Menu">
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
         <PreferenceCategory android:title="Show/Hide Buttons">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Reboot Recovery Button" android:key="asc_reboot_recovery" android:defaultValue="true" android:summaryOn="Reboot Recovery will be shown" android:summaryOff="Currently removed" />
@@ -15,7 +39,7 @@
 
 
 <!--Advanced Settings Menu-->
-    <PreferenceScreen android:title="Advanced Settings Menu" android:summary="USB, Viper, Dolby .....">
+    <PreferenceScreen android:title="Advanced Settings Menu">
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>
         <PreferenceCategory android:title="USB"  />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="asc_usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />

@@ -49,18 +49,18 @@ ADDED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main
 		ADDED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml:14:22-64
 application
 ADDED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml:16:5-46:19
-MERGED from [com.android.support:design:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\AndroidManifest.xml:22:5-20
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:24.2.0] C:\Users\Schwenn\.android\build-cache\46ffd2186b5afbd462c97e990ce24b0b45196b1c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Schwenn\.android\build-cache\e821d95149cbbdd94bab89f8f7076c3b0b02a2fc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Schwenn\.android\build-cache\d2a720b0118732e5d3b5f01d4da635b5fe0381d9\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Schwenn\.android\build-cache\2991bb39f35be14182d9f6b3a88a63d1eb6010ba\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Schwenn\.android\build-cache\ecabe21c739d10272d22f12f03becea272dbe7ff\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Schwenn\.android\build-cache\6a39a751a1a954ff933ff00afa76c6e341a90bc2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Schwenn\.android\build-cache\041c18afe97d49e4e1452f08c0cad8dd2f3f8bd0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Schwenn\.android\build-cache\792c4a1c32c480ea14398556bdddf430e727a879\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Schwenn\.android\build-cache\1724302ff4e2c4ed76e19da6058164a77b961f01\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Schwenn\.android\build-cache\f204cb64701e437f5ad8d35e45ef148a1541f456\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\Schwenn\.android\build-cache\78768722b3fc28972e4e58d7a4c40752f381c52b\output\AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Schwenn\.android\build-cache\6ea557735cfff681ab9e29067fe630a3c8a5ec19\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml:20:9-41
 	android:supportsRtl
@@ -123,21 +123,21 @@ ADDED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main
 		ADDED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml:43:13-61
 uses-sdk
 INJECTED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:24.2.0] C:\Users\Schwenn\.android\build-cache\46ffd2186b5afbd462c97e990ce24b0b45196b1c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Schwenn\.android\build-cache\e821d95149cbbdd94bab89f8f7076c3b0b02a2fc\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Schwenn\.android\build-cache\d2a720b0118732e5d3b5f01d4da635b5fe0381d9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Schwenn\.android\build-cache\2991bb39f35be14182d9f6b3a88a63d1eb6010ba\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Schwenn\.android\build-cache\ecabe21c739d10272d22f12f03becea272dbe7ff\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Schwenn\.android\build-cache\6a39a751a1a954ff933ff00afa76c6e341a90bc2\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Schwenn\.android\build-cache\041c18afe97d49e4e1452f08c0cad8dd2f3f8bd0\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Schwenn\.android\build-cache\792c4a1c32c480ea14398556bdddf430e727a879\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\Schwenn\.android\build-cache\73de4903cedba3b2f00d2ad7966dea149070f88a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Schwenn\.android\build-cache\1724302ff4e2c4ed76e19da6058164a77b961f01\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Schwenn\.android\build-cache\f204cb64701e437f5ad8d35e45ef148a1541f456\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:24.2.0] C:\Users\Schwenn\.android\build-cache\78768722b3fc28972e4e58d7a4c40752f381c52b\output\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Schwenn\.android\build-cache\6ea557735cfff681ab9e29067fe630a3c8a5ec19\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Schwenn\.android\build-cache\e821d95149cbbdd94bab89f8f7076c3b0b02a2fc\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Schwenn\AndroidStudioProjects\Minotaurus-Nougat\app\src\main\AndroidManifest.xml

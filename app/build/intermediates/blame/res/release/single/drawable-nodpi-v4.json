@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\agabey.jpg",
+        "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\agabey.jpg"
+    },
+    {
         "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\icon_4.jpg",
         "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\icon_4.jpg"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\icon_3.jpg",
         "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\icon_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\google.jpg",
+        "source": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\src\\main\\res\\drawable-nodpi\\google.jpg"
     },
     {
         "merged": "C:\\Users\\Schwenn\\AndroidStudioProjects\\Minotaurus-Nougat\\app\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\icon_1.jpg",

@@ -2,6 +2,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <PreferenceScreen android:title="RomControlPro">
+        <PreferenceScreen
+            android:title="RomControl Pro app"
+            android:icon="@drawable/ic_launcher"
+            android:summary="For more options download here">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://goo.gl/E2C5f5" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Rom updates only in RomControlPro">
+        </PreferenceScreen>
+    </PreferenceScreen>
+
 <!--Statusbar-->
     <PreferenceScreen android:title="Statusbar">
         <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/android"/>

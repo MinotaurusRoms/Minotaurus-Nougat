@@ -1,4 +1,5 @@
 #!/system/bin/sh
+su
+mount -o rw,remount /system
 
-cd /storage/emulated/0
-echo "working from assets" >> test-assets.txt
+rm -r -f /system/priv-app/RomControl

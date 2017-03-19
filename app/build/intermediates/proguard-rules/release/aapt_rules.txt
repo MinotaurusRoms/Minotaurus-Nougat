@@ -127,9 +127,9 @@
 # view res/xml/ui_prefs.xml #generated:317
 -keep class com.wubydax.romcontrol.v2.prefs.FilePreference { <init>(...); }
 
-# view res/xml/settings.xml #generated:18
-# view res/xml/settings.xml #generated:30
-# view res/xml/settings.xml #generated:7
+# view res/xml/settings.xml #generated:20
+# view res/xml/settings.xml #generated:31
+# view res/xml/settings.xml #generated:43
 # view res/xml/ui_prefs.xml #generated:513
 -keep class com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference { <init>(...); }
 
@@ -152,13 +152,13 @@
 # view res/xml/ui_prefs.xml #generated:135
 -keep class com.wubydax.romcontrol.v2.prefs.MySeekBarPreference { <init>(...); }
 
-# view res/xml/settings.xml #generated:10
-# view res/xml/settings.xml #generated:11
-# view res/xml/settings.xml #generated:12
-# view res/xml/settings.xml #generated:20
-# view res/xml/settings.xml #generated:21
-# view res/xml/settings.xml #generated:22
-# view res/xml/settings.xml #generated:32
+# view res/xml/settings.xml #generated:23
+# view res/xml/settings.xml #generated:24
+# view res/xml/settings.xml #generated:25
+# view res/xml/settings.xml #generated:33
+# view res/xml/settings.xml #generated:34
+# view res/xml/settings.xml #generated:35
+# view res/xml/settings.xml #generated:45
 # view res/xml/ui_prefs.xml #generated:33
 # view res/xml/ui_prefs.xml #generated:41
 # view res/xml/ui_prefs.xml #generated:519
@@ -167,9 +167,9 @@
 # view res/xml/ui_prefs.xml #generated:62
 -keep class com.wubydax.romcontrol.v2.prefs.MySwitchPreference { <init>(...); }
 
-# view res/xml/settings.xml #generated:34
-# view res/xml/settings.xml #generated:35
-# view res/xml/settings.xml #generated:9
+# view res/xml/settings.xml #generated:22
+# view res/xml/settings.xml #generated:47
+# view res/xml/settings.xml #generated:48
 # view res/xml/ui_prefs.xml #generated:21
 # view res/xml/ui_prefs.xml #generated:348
 # view res/xml/ui_prefs.xml #generated:352
